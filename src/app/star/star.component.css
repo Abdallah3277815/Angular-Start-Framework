@@ -1,0 +1,10 @@
+.starSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.starSection .test{
+    background-color: #fff;
+    width: 10% !important;
+    height: 5px !important;
+}

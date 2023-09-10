@@ -1,0 +1,31 @@
+.img-container .layer{
+    position: absolute;
+    inset: 0;
+    background-color: #1abc9ce6;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.img-container .layer:hover{
+    opacity: 1;
+
+
+}
+.modal{
+    z-index: 9999999999999999999999999999999999999;
+}
+/* .img-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 33.333%;
+  height: 400px;
+} */
+.fade{
+    background-color: #1abc9c1e !important;
+}
+.modal-body{
+    padding: 0 !important;
+}

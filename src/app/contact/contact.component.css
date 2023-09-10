@@ -1,0 +1,38 @@
+h1 {
+  color: #2c3e50;
+  font-size: 60px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50%;
+  margin: auto;
+  flex-direction: column;
+}
+form input{
+    width: 100%;
+    padding: 15px;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #dfe3e7;
+    background-color: #fff;
+
+}
+form span{
+   transition: .3s;
+    position: relative;
+    z-index: -1;
+    color: #1ABC9C;
+}
+.input-group{
+    margin: 20px 0 ;
+}
+.btn{
+    width: fit-content;
+    color: #fff;
+    background-color: #1abc9c;
+    margin: 10px 0 ;
+    font-size: 20px;
+}
+

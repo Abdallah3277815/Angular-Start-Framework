@@ -1,0 +1,23 @@
+section{
+  background-color: #1abc9c;
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.starSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.starSection div{
+    background-color: #fff;
+    width: 10% !important;
+    height: 5px !important;
+}
+.job-titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

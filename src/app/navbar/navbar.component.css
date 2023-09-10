@@ -1,0 +1,14 @@
+.navChange {
+  position: fixed;
+  padding: 15px !important;
+  width: 100%;
+  z-index: 999999;
+  transition: 1s;
+  top: 0;
+  left: 0;
+}
+.activeLink{
+  background-color:#1abc9c !important ;
+  border-radius: 4px;
+  
+}

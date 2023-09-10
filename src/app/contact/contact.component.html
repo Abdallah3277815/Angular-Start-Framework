@@ -1,0 +1,29 @@
+<section class="min-vh-100">
+    <div class="contactHeading my-4">
+        <h1 class="text-center">CONATCT SECTION</h1>
+        <app-starBlue></app-starBlue>
+    </div>
+<div class="container ">
+    <form action="" class=" ">
+        
+        <div class="input-group ">
+            <span class="label" [style.transform]="'translateY(' + translateUserName + 'px)'">User Name : </span>
+    <input type="text" #userName (input)="changeUserName(userName.value)" placeholder="userName">
+        </div>
+        <div class="input-group">
+            <span class="label" [style.transform]="'translateY(' + translateUserAge + 'px)'">User Age : </span>
+    <input type="text" #userAge (input)="changeUserAge(userAge.value)" placeholder="user Age">
+        </div>
+        <div class="input-group">
+            <span class="label" [style.transform]="'translateY(' + translateUserEmail + 'px)'">User email : </span>
+    <input type="email" #userEmail (input)="changeUserEmail(userEmail.value)" placeholder="user Email">
+        </div>
+        <div class="input-group">
+            <span class="label" [style.transform]="'translateY(' + translateUserPassword + 'px)'">User Password : </span>
+    <input type="pass" #userPass (input)="changeUserPassword(userPass.value)" placeholder="user Password">
+        </div>
+     
+        <button class="btn  bg-info" >Send Message</button>
+    </form>
+</div>
+</section>
